@@ -1,0 +1,69 @@
+# ==============================================================================
+# Kisan Vikas — Production Git Ignore Rules
+# ==============================================================================
+
+# Node.js Dependencies
+node_modules/
+*/node_modules/
+*/*/node_modules/
+
+# Production Build Outputs
+dist/
+build/
+*/dist/
+*/build/
+out/
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.env
+!.env.example
+!*/.env.example
+
+# Local Database Dumps & Backups
+*.dump
+*.bak
+*.sql.tar*
+*.sql.gz
+
+# Runtime Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test Coverage & Artifacts
+coverage/
+.nyc_output/
+
+# OS-Specific Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor Directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Temporary Directories & Scratch Artifacts
+scratch/
+tmp/
+temp/
+*.tmp
+.cache/
+
+# Asterisk Generated Audio Cache (Dynamically synthesized TTS prompts)
+ivr/asterisk/sounds/*.wav
+ivr/asterisk/sounds/*.gsm
+ivr/asterisk/sounds/*.mp3

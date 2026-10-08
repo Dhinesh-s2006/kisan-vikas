@@ -1,0 +1,14 @@
+services:
+  asterisk:
+    image: andrius/asterisk:latest
+    container_name: kisan-queue-asterisk
+    restart: unless-stopped
+    ports:
+      - "5060:5060/udp"
+      - "5060:5060/tcp"
+      - "10000-10100:10000-10100/udp"
+    volumes:
+      - ./asterisk/config:/etc/asterisk
+      - ./asterisk/sounds:/var/lib/asterisk/sounds/kisan
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

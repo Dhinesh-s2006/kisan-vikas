@@ -1,0 +1,177 @@
+[
+  {
+    "user_id": "USR_ADMIN_PC004",
+    "username": "admin_erode",
+    "role": "CENTRE_ADMIN",
+    "district": "Erode",
+    "centre_id": "TN_DPC_0589"
+  },
+  {
+    "user_id": "USR_ADMIN_PC001",
+    "username": "admin_madurai",
+    "role": "CENTRE_ADMIN",
+    "district": "Madurai",
+    "centre_id": "TN_DPC_0859"
+  },
+  {
+    "user_id": "USR_ADMIN_PC005",
+    "username": "admin_salem",
+    "role": "CENTRE_ADMIN",
+    "district": "Salem",
+    "centre_id": "TN_DPC_1750"
+  },
+  {
+    "user_id": "USR_ADMIN_PC002",
+    "username": "admin_thanjavur",
+    "role": "CENTRE_ADMIN",
+    "district": "Thanjavur",
+    "centre_id": "TN_DPC_1894"
+  },
+  {
+    "user_id": "USR_ADMIN_PC003",
+    "username": "admin_trichy",
+    "role": "CENTRE_ADMIN",
+    "district": "Thiruchirappalli",
+    "centre_id": "TN_DPC_2520"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0001",
+    "username": "dpc_admin_TN_DPC_0001",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0001"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0002",
+    "username": "dpc_admin_TN_DPC_0002",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0002"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0003",
+    "username": "dpc_admin_TN_DPC_0003",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0003"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0004",
+    "username": "dpc_admin_TN_DPC_0004",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0004"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0005",
+    "username": "dpc_admin_TN_DPC_0005",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0005"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0006",
+    "username": "dpc_admin_TN_DPC_0006",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0006"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0007",
+    "username": "dpc_admin_TN_DPC_0007",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0007"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0008",
+    "username": "dpc_admin_TN_DPC_0008",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0008"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0009",
+    "username": "dpc_admin_TN_DPC_0009",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0009"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0010",
+    "username": "dpc_admin_TN_DPC_0010",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0010"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0011",
+    "username": "dpc_admin_TN_DPC_0011",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0011"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0012",
+    "username": "dpc_admin_TN_DPC_0012",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0012"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0013",
+    "username": "dpc_admin_TN_DPC_0013",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0013"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0014",
+    "username": "dpc_admin_TN_DPC_0014",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0014"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0015",
+    "username": "dpc_admin_TN_DPC_0015",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0015"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0016",
+    "username": "dpc_admin_TN_DPC_0016",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0016"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0017",
+    "username": "dpc_admin_TN_DPC_0017",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0017"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0018",
+    "username": "dpc_admin_TN_DPC_0018",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0018"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0019",
+    "username": "dpc_admin_TN_DPC_0019",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0019"
+  },
+  {
+    "user_id": "USR_ADMIN_TN_DPC_0020",
+    "username": "dpc_admin_TN_DPC_0020",
+    "role": "CENTRE_ADMIN",
+    "district": "Ariyalur",
+    "centre_id": "TN_DPC_0020"
+  }
+]

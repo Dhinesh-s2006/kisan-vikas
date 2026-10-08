@@ -1,0 +1,23 @@
+@import './design-system/kisan-design-system.css';
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Decorative Agricultural Field Background Layer */
+.agriculture-background {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: clamp(220px, 32vh, 320px);
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+  opacity: 0.20;
+}

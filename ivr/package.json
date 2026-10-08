@@ -1,0 +1,12 @@
+{
+  "name": "kisan-queue-ivr",
+  "version": "1.0.0",
+  "description": "Accessibility IVR service for Kisan Queue",
+  "main": "../backend/services/ivr/newFastAgiServer.js",
+  "scripts": {
+    "start": "node ../backend/services/ivr/newFastAgiServer.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

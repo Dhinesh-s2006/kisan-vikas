@@ -1,0 +1,138 @@
+@import './design-system/kisan-design-system.css';
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive Navigation: Desktop Header vs Mobile Bottom Navigation Bar */
+@media (min-width: 769px) {
+  .kq-desktop-nav {
+    display: flex !important;
+  }
+  .kq-mobile-nav {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .kq-desktop-nav {
+    display: none !important;
+  }
+  .kq-mobile-nav {
+    display: flex !important;
+  }
+}
+
+/* ============================================================
+ * KISAN VIKAS Landing Page Styles
+ * Clean, minimal, modern government-grade agricultural portal
+ * ============================================================ */
+.kv-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .kv-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .kv-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+.kv-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03), 0 1px 2px rgba(0, 0, 0, 0.02);
+  padding: 32px 24px 28px 24px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.kv-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  border-color: #d1d5db;
+}
+
+.kv-btn-primary {
+  width: 100%;
+  height: 44px;
+  border-radius: 8px;
+  background-color: #15803d;
+  color: #ffffff;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.15s ease;
+  font-family: inherit;
+  margin-top: auto;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.kv-btn-primary:hover {
+  background-color: #166534;
+}
+
+.kv-btn-secondary {
+  width: 100%;
+  height: 44px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #1f2937;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+  font-family: inherit;
+  margin-top: auto;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.kv-btn-secondary:hover {
+  background-color: #f9fafb;
+  border-color: #9ca3af;
+  color: #111827;
+}
+
+/* Decorative Agricultural Field Background Layer */
+.agriculture-background {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: clamp(220px, 32vh, 320px);
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+  opacity: 0.20; /* In the 0.12 - 0.25 range for noticeable yet subtle watermark */
+}
+
+
