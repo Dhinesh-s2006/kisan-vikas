@@ -384,6 +384,7 @@ async function initDb() {
       ALTER TABLE bookings ADD COLUMN IF NOT EXISTS is_demo BOOLEAN DEFAULT FALSE;
       ALTER TABLE bookings ADD COLUMN IF NOT EXISTS demo_session_id VARCHAR(100);
       CREATE INDEX IF NOT EXISTS idx_bookings_demo ON bookings(is_demo, demo_session_id);
+      ALTER TABLE bookings ADD COLUMN IF NOT EXISTS idempotency_key VARCHAR(128);
       CREATE UNIQUE INDEX IF NOT EXISTS idx_bookings_idempotency_key ON bookings(idempotency_key) WHERE idempotency_key IS NOT NULL;
 
       ALTER TABLE farmers ADD COLUMN IF NOT EXISTS is_demo BOOLEAN DEFAULT FALSE;

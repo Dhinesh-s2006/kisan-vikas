@@ -1,5 +1,10 @@
 const path = require('path');
-require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
+// Safely load dotenv in standalone IVR mode; in backend/Render, process.env is already populated
+try {
+  require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
+} catch (err) {
+  // Gracefully use existing process.env when dotenv cannot be resolved
+}
 
 module.exports = {
   fastAgiPort: parseInt(process.env.FASTAGI_PORT, 10) || 4574,
