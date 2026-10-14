@@ -3,13 +3,13 @@
 ### Empowering Farmers. Simplifying Procurement. Building Transparency.
 
 <p align="center">
-  <a href="https://kisan-queue-frontend.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/🚀_CLICK_HERE_TO_LAUNCH_LIVE_DEMO-OPEN_KISAN_VIKAS-228B22?style=for-the-badge&logo=vercel&logoColor=white" alt="Launch Kisan Vikas Live Demo"/>
+  <a href="https://kisan-queue-frontend.vercel.app/">
+    <img src="https://img.shields.io/badge/🚀_LAUNCH_LIVE_DEMO-228B22?style=for-the-badge&logo=vercel&logoColor=white" alt="Launch Live Demo"/>
   </a>
 </p>
 
 <p align="center">
-  <strong>👨‍🌾 Farmer Portal | 📅 Smart Slot Booking | 📊 Queue Tracking | 🤝 Assisted Access</strong>
+  **👉 To keep this README and the demo open side by side:** Right-click the green button above and select **Open link in new tab**.
 </p>
 
 ---
