@@ -1,27 +1,82 @@
 # 🌾 Kisan Vikas (உழவர் முன்னேற்றம்)
 
-Empowering Farmers. Simplifying Procurement. Building Transparency.
+### Empowering Farmers. Simplifying Procurement. Building Transparency.
 
 <p align="center">
-  <a href="https://kisan-queue-frontend.vercel.app/">
-    <img src="https://img.shields.io/badge/🚀_CLICK_HERE_TO_TRY_THE_LIVE_DEMO-Launch_Kisan_Vikas-228B22?style=for-the-badge&logo=vercel&logoColor=white" alt="Launch Kisan Vikas Live Demo"/>
+  <a href="https://kisan-queue-frontend.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/🚀_CLICK_HERE_TO_LAUNCH_LIVE_DEMO-OPEN_KISAN_VIKAS-228B22?style=for-the-badge&logo=vercel&logoColor=white" alt="Launch Kisan Vikas Live Demo"/>
   </a>
 </p>
 
 <p align="center">
-  <strong>👨‍🌾 Farmer-Centric Procurement | 📅 Smart Slot Booking | 📊 Transparent Queue Tracking | 🤝 Assisted Access</strong>
+  <strong>👨‍🌾 Farmer Portal | 📅 Smart Slot Booking | 📊 Queue Tracking | 🤝 Assisted Access</strong>
 </p>
 
-👋 Welcome, Reviewers!
+---
 
-Ready to explore Kisan Vikas?
+## 🔑 Reviewer Access — Demo Credentials
 
-Click the green button above to launch the application and experience our approach to making agricultural procurement more accessible, transparent, and convenient for farmers.
+**Welcome, Evaluators!** Use the live demo button above to open Kisan Vikas. The following demo accounts let you explore the application from different stakeholder perspectives.
 
-> **Intelligent Agricultural Procurement Scheduling & Real-Time Queue Orchestration Platform**  
-> *Bridging Digital Farmers, Feature-Phone Callers, and Direct Purchase Centres through Transparent, Synchronized Procurement.*
+> **Evaluation use only:** These credentials are intended for demonstration. Please do not enter real farmers' personal information.
+
+### 👨‍🌾 1. Farmer Portal
+
+| Field | Credentials |
+|---|---|
+| Farmer ID | `F758874` |
+| Phone Number | `9020071017` |
+
+### 🏢 2. DPC Centre Admin — Ariyalur
+
+| Field | Credentials |
+|---|---|
+| Username | `dpc_admin_TN_DPC_0001` |
+| Password | `Kisan@95EFB5#26` |
+| Centre | Aiyyur Direct Paddy Procurement Centre |
+| Centre ID | `TN_DPC_0001` |
+
+### 🖥️ 3. CSC Operator — Ariyalur
+
+| Field | Credentials |
+|---|---|
+| Username | `csc_ariyalur` |
+| Password | `Kisan@593484#26` |
+
+### 🏛️ 4. District Officer — Ariyalur
+
+| Field | Credentials |
+|---|---|
+| Username | `officer_ariyalur` |
+| Password | `kisan@123` |
+
+### 🔐 5. Super Admin
+
+| Field | Credentials |
+|---|---|
+| Username | `superadmin` |
+| Password | `kisan@123` |
+
+### 🧭 Suggested Evaluation Flow
+
+1. **Farmer:** Explore the farmer portal and procurement visit workflow.
+2. **Centre Admin:** View and manage procurement-centre operations.
+3. **CSC Operator:** Explore assisted access for farmers.
+4. **District Officer:** Explore district-level monitoring.
+5. **Super Admin:** Explore platform administration.
+
+*Some features may require a working backend and valid demo data.*
+
+---
+
+## 🌱 About Kisan Vikas
+
+**Intelligent Agricultural Procurement Scheduling & Real-Time Queue Orchestration Platform**
+
+*Bridging Digital Farmers, Feature-Phone Callers, and Direct Purchase Centres through Transparent, Synchronized Procurement.*
 
 **விவசாயிகள் கொள்முதல் மையங்களில் தங்களுடைய விளைபொருட்களை விற்பனை செய்வதற்கான நேர முன்பதிவு, வரிசை மேலாண்மை மற்றும் கொள்முதல் நிலை கண்காணிப்பு அமைப்பு.**
+
 
 ** இணையதளம், தொலைபேசி வழி சேவை மற்றும் உதவி மையங்கள் மூலம் விவசாயிகள்
 கொள்முதல் மையத்தில் நேரத்தை முன்பதிவு செய்து, காத்திருப்பு நேரத்தைக்
