@@ -3,7 +3,7 @@
 ### Empowering Farmers. Simplifying Procurement. Building Transparency.
 
 <p align="center">
-  <a href="https://kisan-queue-frontend.vercel.app/">
+  <a href="https://kisan-vikas-app.vercel.app/">
     <img src="https://img.shields.io/badge/🚀_LAUNCH_LIVE_DEMO-228B22?style=for-the-badge&logo=vercel&logoColor=white" alt="Launch Live Demo"/>
   </a>
 </p>
@@ -18,7 +18,10 @@
 
 **Welcome, Evaluators!** Use the live demo button above to open Kisan Vikas. The following demo accounts let you explore the application from different stakeholder perspectives.
 
-> **Evaluation use only:** These credentials are intended for demonstration. Please do not enter real farmers' personal information.
+**Evaluation use only:** These credentials are intended for demonstration. Please do not enter real farmers' personal information.
+
+**“We don't just have one login; we have role-based access with different views and permissions for each stakeholder.”**
+
 
 ### 👨‍🌾 1. Farmer Portal
 
@@ -50,6 +53,12 @@
 | Username | `officer_ariyalur` |
 | Password | `kisan@123` |
 
+### 🔐 5. Super Admin
+
+| Field | Details |
+|---|---|
+| Username | `superadmin` |
+| Password | `kisan@123` |
 
 ### 🧭 Suggested Evaluation Flow
 
@@ -57,6 +66,7 @@
 2. **Centre Admin:** View and manage procurement-centre operations.
 3. **CSC Operator:** Explore assisted access for farmers.
 4. **District Officer:** Explore district-level monitoring.
+5. **Super Admin:** Explore platform administration and procurement-centre management.
 
 *Some features may require a working backend and valid demo data.*
 
@@ -69,7 +79,6 @@
 *Bridging Digital Farmers, Feature-Phone Callers, and Direct Purchase Centres through Transparent, Synchronized Procurement.*
 
 **விவசாயிகள் கொள்முதல் மையங்களில் தங்களுடைய விளைபொருட்களை விற்பனை செய்வதற்கான நேர முன்பதிவு, வரிசை மேலாண்மை மற்றும் கொள்முதல் நிலை கண்காணிப்பு அமைப்பு.**
-
 
 ** இணையதளம், தொலைபேசி வழி சேவை மற்றும் உதவி மையங்கள் மூலம் விவசாயிகள்
 கொள்முதல் மையத்தில் நேரத்தை முன்பதிவு செய்து, காத்திருப்பு நேரத்தைக்
@@ -129,7 +138,7 @@ At government Direct Purchase Centres (DPCs) and agricultural mandis across Indi
 | **Digital Farmer** | Farmer Web Portal (`/`) | Self-service slot booking, digital pass QR code, live queue tracking, and MSP payment receipt inspection. |
 | **IVR Feature-Phone Farmer** | Telephone IVR (`Ext 2000`) | Multilingual voice booking (Tamil, English, Hindi), status playback, audio digital pass, and DBT balance enquiry. |
 | **CSC Operator** | Assisted Kiosk (`/assisted-kiosk`) | Assisted registration and crop declaration booking for farmers without digital literacy. |
-| **Centre Administrator** | Centre Admin Portal (`/centre-admin`) | Live physical token verification, farmer check-in, quality assessment (FAQ standards), and weighment recording. |
+| **Centre Administrator** | Centre Admin Portal (`/admin`) | Live physical token verification, farmer check-in, quality assessment (FAQ standards), and weighment recording. |
 | **District Officer** | District GIS Dashboard (`/district-officer`) | District-wide capacity oversight, inter-centre load balancing, disruption handling, and predictive planning. |
 | **Super Administrator** | Platform Governance (`/super-admin`) | Master procurement centre registry, officer provisioning, RBAC configuration, and platform audit logs. |
 
@@ -384,62 +393,7 @@ node scripts/test_critical_lifecycle_and_ivr_sync.js
 node tests/verify_canonical_business_logic.js
 ```
 
----
-
-## 13. Evaluator Demo Credentials
-
-The following accounts are provided specifically for **hackathon evaluation and demonstration** of the Kisan Vikas system.
-
->**Evaluation Only:** These are demo credentials intended for evaluators to explore the system. They must not be used for production deployments or real farmer data.
-
-**“We don't just have one login; we have role-based access with different views and permissions for each stakeholder.”**
-
-### 👨‍🌾 Demo Farmer
-
-| Field | Details |
-|---|---|
-| Farmer ID | `F758874` |
-| Phone Number | `9020071017` |
-
-### 🏢 DPC Centre Admin — Ariyalur District
-
-**Aiyyur Direct Paddy Procurement Centre**
-
-| Field | Details |
-|---|---|
-| Username | `dpc_admin_TN_DPC_0001` |
-| Password | `Kisan@95EFB5#26` |
-| Centre | Aiyyur Direct Paddy Procurement Centre |
-| Centre ID | `TN_DPC_0001` |
-| District | Ariyalur |
-
-### 🖥️ CSC Operator — Ariyalur District
-
-| Field | Details |
-|---|---|
-| Username | `csc_ariyalur` |
-| Password | `Kisan@593484#26` |
-| District | Ariyalur |
-
-### 🏛️ District Officer — Ariyalur District
-
-| Field | Details |
-|---|---|
-| Username | `officer_ariyalur` |
-| Password | `kisan@123` |
-| District | Ariyalur |
-
-### 🔐 Super Admin
-
-| Field | Details |
-|---|---|
-| Username | `superadmin` |
-| Password | `kisan@123` |
-
-> **Recommended evaluation flow:** Start with the **Farmer** account to create/view a procurement visit, then use the **DPC Centre Admin** account to view and manage the farmer's booking. The **CSC Operator**, **District Officer**, and **Super Admin** accounts can be used to explore their respective dashboards and administrative functions.
----
-
-## 14. Known Limitations & Roadmap
+## 13. Known Limitations & Roadmap
 
 - **SMS Gateway**: Simulated locally via in-database notification events; requires Twilio or CDAC SMS gateway integration for carrier delivery.
 - **Hardware Weighbridge Integration**: Current system accepts manual or digital weighbridge readings via REST API; direct RS-232 serial integration is planned for Phase 2.
@@ -447,6 +401,6 @@ The following accounts are provided specifically for **hackathon evaluation and 
 
 ---
 
-## 15. License
+## 14. License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
