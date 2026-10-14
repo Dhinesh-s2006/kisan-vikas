@@ -798,6 +798,7 @@ export default function App() {
           <Route path="/admin-dashboard" element={<CentreAdminDashboard />} />
 
           {/* DEDICATED SUPER ADMIN PORTAL (HIDDEN DIRECT ROUTE) */}
+          <Route path="/super-admin" element={<WebsiteAdminPortal />} />
           <Route path="/website-admin" element={<WebsiteAdminPortal />} />
 
           {/* FARMER APPLICATION */}
