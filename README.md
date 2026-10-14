@@ -50,12 +50,6 @@
 | Username | `officer_ariyalur` |
 | Password | `kisan@123` |
 
-### 🔐 5. Super Admin
-
-| Field | Credentials |
-|---|---|
-| Username | `superadmin` |
-| Password | `kisan@123` |
 
 ### 🧭 Suggested Evaluation Flow
 
@@ -63,7 +57,6 @@
 2. **Centre Admin:** View and manage procurement-centre operations.
 3. **CSC Operator:** Explore assisted access for farmers.
 4. **District Officer:** Explore district-level monitoring.
-5. **Super Admin:** Explore platform administration.
 
 *Some features may require a working backend and valid demo data.*
 
