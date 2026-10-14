@@ -2,15 +2,14 @@
 
 ### Empowering Farmers. Simplifying Procurement. Building Transparency.
 
-![Kisan Vikas Farmer Banner](assets/kisan-vikas-banner.png)
 <p align="center">
   <a href="https://kisan-vikas-app.vercel.app/">
-    <img src="https://img.shields.io/badge/🌾_EXPLORE_KISAN_VIKAS-LAUNCH_LIVE_DEMO-176B3A?style=for-the-badge" alt="Launch Kisan Vikas Live Demo"/>
+    <img src="assets/kisan-vikas-banner.png" alt="Kisan Vikas — Click to Explore the Live Application" width="100%"/>
   </a>
 </p>
 
 <p align="center">
-  *Empowering Farmers. Simplifying Procurement. Building Transparency.*
+  <strong>👆 Click the banner above to explore the live Kisan Vikas application.</strong>
 </p>
 
 ---
