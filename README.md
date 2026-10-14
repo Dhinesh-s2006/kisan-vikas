@@ -1,7 +1,5 @@
 # 🌾 Kisan Vikas (உழவர் முன்னேற்றம்)
 
-### Empowering Farmers. Simplifying Procurement. Building Transparency.
-
 <p align="center">
   <a href="https://kisan-vikas-app.vercel.app/">
     <img src="assets/kisan-vikas-banner.png" alt="Kisan Vikas — Click to Explore the Live Application" width="100%"/>
