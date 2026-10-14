@@ -2,14 +2,16 @@
 
 ### Empowering Farmers. Simplifying Procurement. Building Transparency.
 
+![Kisan Vikas — Farmer-Centric Procurement](assets/kisan-vikas-banner.png)
+
 <p align="center">
   <a href="https://kisan-vikas-app.vercel.app/">
-    <img src="https://img.shields.io/badge/🚀_LAUNCH_LIVE_DEMO-228B22?style=for-the-badge&logo=vercel&logoColor=white" alt="Launch Live Demo"/>
+    <img src="https://img.shields.io/badge/🌾_EXPLORE_KISAN_VIKAS-LAUNCH_LIVE_DEMO-176B3A?style=for-the-badge" alt="Launch Kisan Vikas Live Demo"/>
   </a>
 </p>
 
 <p align="center">
-  **👉 To keep this README and the demo open side by side:** Right-click the green button above and select **Open link in new tab**.
+  *Empowering Farmers. Simplifying Procurement. Building Transparency.*
 </p>
 
 ---
