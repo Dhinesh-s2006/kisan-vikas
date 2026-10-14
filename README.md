@@ -83,6 +83,24 @@
 
 ---
 
+## 🔐 Environment Configuration & Security
+
+Kisan Vikas uses environment variables to configure backend services, database connectivity, authentication, and external API integrations.
+
+**For security reasons, the actual `.env` configuration file is intentionally excluded from this public repository.** It may contain private API keys, database credentials, JWT secrets, and service-specific configuration.
+
+### For Reviewers and Developers
+
+- 📄 **`.env.example`** — Provides the environment variable names and configuration template required to understand the project setup.
+- 🔒 **`.env`** — Contains environment-specific credentials and must remain private.
+- 🛡️ **Secret Management** — API keys, database passwords, authentication secrets, and other sensitive values must be supplied through secure environment configuration rather than committed to source control.
+
+To run the project locally, copy `.env.example` to the appropriate environment file and configure your own credentials. External services may require their own API keys.
+
+**Note:** The deployed demo is intended to be explored using the live application link and the designated reviewer accounts documented above. Reviewers do not need access to private production credentials to inspect the source code.
+
+---
+
 ## 1. Problem Statement
 
 At government Direct Purchase Centres (DPCs) and agricultural mandis across India:
