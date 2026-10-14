@@ -1,5 +1,23 @@
 # 🌾 Kisan Vikas (உழவர் முன்னேற்றம்)
 
+Empowering Farmers. Simplifying Procurement. Building Transparency.
+
+<p align="center">
+  <a href="https://kisan-queue-frontend.vercel.app/">
+    <img src="https://img.shields.io/badge/🚀_CLICK_HERE_TO_TRY_THE_LIVE_DEMO-Launch_Kisan_Vikas-228B22?style=for-the-badge&logo=vercel&logoColor=white" alt="Launch Kisan Vikas Live Demo"/>
+  </a>
+</p>
+
+<p align="center">
+  <strong>👨‍🌾 Farmer-Centric Procurement | 📅 Smart Slot Booking | 📊 Transparent Queue Tracking | 🤝 Assisted Access</strong>
+</p>
+
+👋 Welcome, Reviewers!
+
+Ready to explore Kisan Vikas?
+
+Click the green button above to launch the application and experience our approach to making agricultural procurement more accessible, transparent, and convenient for farmers.
+
 > **Intelligent Agricultural Procurement Scheduling & Real-Time Queue Orchestration Platform**  
 > *Bridging Digital Farmers, Feature-Phone Callers, and Direct Purchase Centres through Transparent, Synchronized Procurement.*
 
